@@ -55,6 +55,13 @@ ro.lmk.psi_complete_stall_ms=120
 ro.lmk.psi_partial_stall_ms=50
 ro.lmk.filecache_min_kb=300000
 
+# Battery Backup
+ro.config.hw_power_extreme_saving=1
+ro.config.hw_power_saving=1
+ro.ril.power_collapse=1
+ro.ril.disable.power.collapse=0
+pm.sleep_mode=1
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
