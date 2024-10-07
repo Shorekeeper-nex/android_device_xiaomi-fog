@@ -291,6 +291,12 @@ wifi.aware.interface=wifi-aware0
 # WLAN
 ro.telephony.iwlan_operation_mode=legacy
 
+# IMS props
+persist.vendor.ims.no_stapa=1
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM6225
