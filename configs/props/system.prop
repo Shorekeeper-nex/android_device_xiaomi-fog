@@ -55,6 +55,12 @@ ro.lmk.psi_complete_stall_ms=120
 ro.lmk.psi_partial_stall_ms=50
 ro.lmk.filecache_min_kb=300000
 
+# IMS Debugging
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+
 # Battery Backup
 ro.config.hw_power_extreme_saving=1
 ro.config.hw_power_saving=1
