@@ -86,6 +86,15 @@ mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 ro.config.media_vol_default=10
 
+# Fling
+ro.min.fling_velocity=160 
+ro.max.fling_velocity=20000
+ro.max.fling_velocity=20000 
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Netflix
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
@@ -141,6 +150,6 @@ persist.log.tag.GRALLOC=S
 persist.log.tag.gralloc4=S
 
 # Hardware Description
-ro.device.chipset=Qualcomm Snapdragon 680 4G
+ro.device.chipset=Qualcomm SM6225
 ro.device.display_resolution=6.71" IPS LCD 720x1650
 ro.device.colorbody_phone=Graphite Gray
