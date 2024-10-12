@@ -23,6 +23,9 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc
 
+# Inherit fog firmware images
+$(call inherit-product, firmware/xiaomi/fog/Android.mk)
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
@@ -443,6 +446,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    firmware/xiaomi/fog \
     hardware/qcom-caf/bootctrl \
     hardware/xiaomi
 
