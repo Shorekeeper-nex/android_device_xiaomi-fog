@@ -22,6 +22,7 @@ debug.hwui.skia_use_perfetto_track_events=false
 debug.hwui.trace_gpu_resources=false
 debug.sf.enable_hwc_vds=0
 debug.sf.auto_latch_unsignaled=0
+persist.debug.sf.enable_layer_lifecycle_manager=false
 ro.surface_flinger.supports_background_blur=0
 
 # CNE
