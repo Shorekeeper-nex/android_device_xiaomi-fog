@@ -109,6 +109,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 
+BOARD_RAMDISK_USE_LZ4 := true
 BOARD_KERNEL_CMDLINE += \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
